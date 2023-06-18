@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build & scp -r dist/* root@139.9.112.222:/root/WebPage/homepage",
+    "build": "vite build ; scp -r dist/* root@139.9.112.222:/root/WebPage/homepage",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "bootstrap-icons": "^1.10.5",
     "element-plus": "^2.3.6",
     "vue": "^3.2.47"
   },
