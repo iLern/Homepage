@@ -6,14 +6,12 @@ import Description from "@/components/Description.vue";
 
 <template>
     <div class="page">
-        <el-container>
-            <el-main>
-                <Avatar :avatar-size="120" avatar-url="/avatar.png"></Avatar>
-                <Description></Description>
-                <el-divider></el-divider>
-                <Links :icon_width="25" :icon_height="25"></Links>
-            </el-main>
-        </el-container>
+        <div class="full-screen">
+            <Avatar :avatar-size="120" avatar-url="/avatar.png"></Avatar>
+            <Description></Description>
+            <el-divider></el-divider>
+            <Links :icon_width="25" :icon_height="25"></Links>
+        </div>
     </div>
 </template>
 
@@ -23,10 +21,9 @@ import Description from "@/components/Description.vue";
 
 <style scoped>
 .page {
-    margin-bottom: 20vh;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 </style>

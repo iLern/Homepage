@@ -3,7 +3,7 @@
       <div>
         <a
           target="_blank"
-          href="http://blog.tiestone.top"
+          href="https://blog.tiestone.top"
           aria-label="Blog"
           data-balloon-pos="down"
         >
@@ -31,7 +31,7 @@
       <div>
         <a
           target="_blank"
-          href="http://tool.tiestone.top"
+          href="https://tool.tiestone.top"
           aria-label="Tool Box"
           data-balloon-pos="down"
         >
@@ -53,7 +53,7 @@
       <div>
         <a
           target="_blank"
-          href="http://love.tiestone.top"
+          href="https://love.tiestone.top"
           aria-label="Love"
           data-balloon-pos="down"
         >
@@ -99,7 +99,7 @@
         <a
           target="_blank"
           href="mailto:taisitong@outlook.com"
-          aria-label="Github"
+          aria-label="Email"
           data-balloon-pos="down"
         >
           <svg
@@ -148,7 +148,7 @@ export default {
 }
 
 a {
-  color: cornflowerblue;
+  color: #ff8438;
 }
 
 a:hover {
