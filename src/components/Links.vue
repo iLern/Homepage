@@ -143,5 +143,7 @@ a:hover {
 .el-divider--vertical {
   height: 30px;
   margin: 0 10px;
+
+  border-left: 1px rgba(0, 0, 0, 0.15) var(--el-border-style);
 }
 </style>

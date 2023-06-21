@@ -33,4 +33,8 @@ import Description from "@/components/Description.vue";
     border-radius: 30px;
     /*background-color: #C7CEDA;*/
 }
+
+.el-divider--horizontal {
+    border-top: 1px rgba(0, 0, 0, 0.15) var(--el-border-style);
+}
 </style>
