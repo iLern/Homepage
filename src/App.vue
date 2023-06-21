@@ -6,7 +6,7 @@ import Description from "@/components/Description.vue";
 
 <template>
     <div class="page">
-        <div class="full-screen">
+        <div>
             <Avatar :avatar-size="120" avatar-url="/avatar.png"></Avatar>
             <Description></Description>
             <el-divider></el-divider>
@@ -21,9 +21,16 @@ import Description from "@/components/Description.vue";
 
 <style scoped>
 .page {
+    position: relative;
+    top: -30px; /* 调整此值以改变向上浮动的距离 */
+
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
+
+    padding: 20px;
+    border-radius: 30px;
+    /*background-color: #C7CEDA;*/
 }
 </style>

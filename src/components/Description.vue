@@ -19,5 +19,11 @@ export default {
     font-size: 30px;
     font-weight: bold;
     height: 50px;
+    color: #646B73;
+}
+.description {
+    font-size: 15px;
+    height: 30px;
+    color: #646b73;
 }
 </style>

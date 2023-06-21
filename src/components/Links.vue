@@ -133,7 +133,7 @@ export default {
 }
 
 a {
-  color: #8697A6;
+  color: #253D8C;
 }
 
 a:hover {
