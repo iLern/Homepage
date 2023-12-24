@@ -8,8 +8,8 @@
       class="bi bi-journal-richtext"
       viewBox="0 0 16 16"
       @click="openLink('https://blog.tiestone.top')"
-      aria-label="Blog"
-      data-balloon-pos="down"
+      style="cursor: pointer"
+      v-tippy="{ content: 'Blog', placement: 'bottom', arrow: true, animation: 'shift-toward' }"
     >
       <path
         d="M7.5 3.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047L11 4.75V7a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 7v-.5s1.54-1.274 1.639-1.208zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"
@@ -30,8 +30,8 @@
       class="bi bi-tools"
       viewBox="0 0 16 16"
       @click="navigateToRoute('/tool-box')"
-      aria-label="Tool Box"
-      data-balloon-pos="down"
+      style="cursor: pointer"
+      v-tippy="{ content: 'Tool Box', placement: 'bottom', arrow: true, animation: 'shift-toward' }"
     >
       <path
         d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z"
@@ -47,8 +47,7 @@
       viewBox="0 0 16 16"
       @click="navigateToRoute('/love')"
       style="cursor: pointer"
-      aria-label="Love"
-      data-balloon-pos="down"
+      v-tippy="{ content: 'Love', placement: 'bottom', arrow: true, animation: 'shift-toward' }"
     >
       <path
         fill-rule="evenodd"
@@ -65,8 +64,7 @@
       viewBox="0 0 16 16"
       @click="openLink('https://github.com/iLern')"
       style="cursor: pointer"
-      aria-label="Github"
-      data-balloon-pos="down"
+      v-tippy="{ content: 'Github', placement: 'bottom', arrow: true, animation: 'shift-toward' }"
     >
       <path
         d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
@@ -82,8 +80,7 @@
       viewBox="0 0 16 16"
       @click="sendEmail('mailto:taisitong@outlook.com')"
       style="cursor: pointer"
-      aria-label="Email"
-      data-balloon-pos="down"
+      v-tippy="{ content: 'Email', placement: 'bottom', arrow: true, animation: 'shift-toward' }"
     >
       <path
         d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
@@ -93,8 +90,16 @@
 </template>
 
 <script>
+import VueTippy from "vue-tippy";
+import "tippy.js/dist/tippy.css";
+import "tippy.js/animations/shift-toward.css";
+
 export default {
   name: "Links",
+
+  directives: {
+    Tippy: VueTippy.directive,
+  },
 
   props: {
     icon_width: {
