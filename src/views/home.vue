@@ -5,13 +5,15 @@ import Links from "@/components/Links.vue";
 import Description from "@/components/Description.vue";
 
 export default {
-    name: "Home",
+    name: "home",
     components: {
         Avatar,
         Links,
         Description
-    }
+    },
+
 }
+
 
 </script>
 

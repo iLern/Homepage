@@ -1,6 +1,6 @@
 <script>
     export default {
-        name: "Love",
+        name: "love",
         components: {
 
         }
